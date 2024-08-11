@@ -3,3 +3,8 @@ export { default as Navbar } from "./Navbar.astro";
 export { default as Atention } from "./Atention.astro";
 export { default as Solution } from "./Solution.astro";
 export { default as Authority } from "./Authority.astro";
+export { default as Bonus } from "./Bonus.astro";
+export { default as Testimonials } from "./Testimonials.astro"
+export { default as Guarantee } from "./Guarantee.astro"
+export { default as Teacher } from "./Teacher.astro"
+export { default as Footer } from "./Footer.astro"
