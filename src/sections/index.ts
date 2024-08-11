@@ -7,4 +7,7 @@ export { default as Bonus } from "./Bonus.astro";
 export { default as Testimonials } from "./Testimonials.astro"
 export { default as Guarantee } from "./Guarantee.astro"
 export { default as Teacher } from "./Teacher.astro"
+export { default as Questions } from "./Questions.astro"
 export { default as Footer } from "./Footer.astro"
+export { default as CallToAction } from "./CallToAction.astro"
+export { default as CallToActionTwo } from "./CallToActionTwo.astro"
