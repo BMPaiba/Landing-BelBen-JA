@@ -1,0 +1,36 @@
+---
+import { Navbar } from "../sections";
+---
+
+<section
+  class="flex flex-col items-center justify-center relative lg:h-[600px] bg-cover bg-center"
+  style="background-image: url('/assets/bg-hero.png');"
+>
+  <div class="absolute inset-0 bg-white opacity-75"></div>
+  <div class="absolute top-[20px] w-full mb-32">
+    <Navbar />
+  </div>
+  <div
+    class="flex flex-col lg:flex-row justify-between items-center mx-auto py-24 lg:py-12 w-full max-w-[1200px]   "
+  >
+    <div class="relative lg:max-w-[500px] px-4 text-center flex flex-col gap-8">
+      <h1 class="text-4xl font-extrabold">
+        <span class="text-[#f00]">Descubre</span> el Arte de los
+        <span class="text-[#f00]">Jabones Artesanales </span>
+        y Conviertelo en un
+        <span class="text-[#f00]">Emprendimiento Exitoso</span>
+      </h1>
+      <p class="text-xl font-semibold">
+        <span class="text-[#f00]">Aprende desde cero</span>, paso a paso, y
+        conviértete en una experta
+        <span class="text-[#f00]">en menos de 15 Días</span>
+      </p>
+    </div>
+    <div class="relative py-8">
+      <video width="500" autoplay loop>
+        <source src="/assets/video.mp4" type="video/mp4" />
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+    </div>
+  </div>
+</section>
