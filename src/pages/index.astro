@@ -1,7 +1,7 @@
 ---
 import { IslandMessage } from "@/components";
 import Layout from "../layouts/Layout.astro";
-import { Atention, Authority, Hero, Solution, Bonus, Testimonials, Guarantee, Footer, Teacher } from "../sections";
+import { Atention, Authority, Hero, Solution, Bonus, Testimonials, Guarantee, Footer, Teacher, Questions, CallToAction, CallToActionTwo } from "../sections";
 ---
 
 <Layout title="Jabones Artesanales para Emprender tu Negocio desde Cero">
@@ -19,6 +19,7 @@ import { Atention, Authority, Hero, Solution, Bonus, Testimonials, Guarantee, Fo
       tenemos disponible por tiempo limitado
     </IslandMessage>
     <Bonus />
+    <CallToAction/>
     <IslandMessage>
       Inscribete AHORA realizando un pago unico, sin mensualidades, con acceso
       al programa para toda la vida
@@ -26,6 +27,8 @@ import { Atention, Authority, Hero, Solution, Bonus, Testimonials, Guarantee, Fo
     <Testimonials/>
     <Guarantee  />
     <Teacher/>
+    <CallToActionTwo/>
+    <Questions/>
     <Footer/>
   </main>
 </Layout>
