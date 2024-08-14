@@ -11,7 +11,7 @@ import { testimonials } from "@/data";
 
 const CarouselComponent = () =>  {
   return (
-    <Carousel className="w-full max-w-lg m-auto bg-lightGreen mt-8">
+    <Carousel className="w-full max-w-lg m-auto   mt-8">
       <CarouselContent>
         {testimonials.map((image, index) => (
           <CarouselItem key={index}>
