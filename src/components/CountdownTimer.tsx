@@ -13,9 +13,7 @@ const CountdownTimer: React.FC = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setTime((prevTime) =>
-        prevTime > 0 ? prevTime - 1 : getSecondsUntilNextMidnightGMT()
-      );
+      setTime((prevTime) => (prevTime > 0 ? prevTime - 1 : getSecondsUntilNextMidnightGMT()));
     }, 1000);
 
     return () => clearInterval(interval);
@@ -31,7 +29,7 @@ const CountdownTimer: React.FC = () => {
   const { hours, minutes, secs } = getTimeParts(time);
 
   return (
-    <div className="bg-lightGreen shadow-md shadow-gray-300 rounded-xl p-8 flex items-center justify-around text-8xl font-bold gap-12 max-w-[700px] mx-auto m-8">
+    <div className="bg-lightGreen shadow-md shadow-gray-300 rounded-xl p-8 flex items-center justify-around  text-5xl sm:text-7xl md:text-8xl font-bold gap-6 lg:gap-12 max-w-[700px] mx-auto m-8">
       <div className="flex flex-col items-center justify-center">
         <p className="">{hours.toString().padStart(2, "0")}</p>
         <span className="text-sm">Horas</span>
