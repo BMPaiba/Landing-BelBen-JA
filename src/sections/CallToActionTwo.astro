@@ -2,18 +2,22 @@
 import { ButtonCTA, CountdownTimer } from "@/components";
 ---
 
-<section class="fñex flex-col items-center justify-center max-w-[1000px] mx-auto pt-8">
-  <h2 class="text-center font-extrabold text-5xl text-[#f00]">¡SÓLO POR HOY!</h2>
-  <h3 class="text-center font-bold text-xl py-2">
-    Tendrás un <span class="font-bold text-3xl"> 50% de DESCUENTO</span>
-  </h3>
-  <h3 class="text-center font-bold text-xl  ">
-    pero apurate, esta oferta finaliza en
-  </h3>
-  <p class="text-center py-4">Estos son todos los beneficios a los que tendrás acceso solo por el día de hoy e
-    inmediatamente realices tu inscripción al nuevo programa con certificación Jabones
-    Artesanales para Emprendedores</p>
-  <img src="/assets/offert.png" alt="" class="w-96 mx-auto" />
-  <CountdownTimer client:load />
-  <ButtonCTA />
+<section
+  class="mx-auto py-8 z-[-2] bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(255,255,255,0),rgba(109,237,14,0.05))]"
+>
+  <div class="flex flex-col items-center justify-center max-w-[1000px] mx-auto">
+    <h2 class="text-center font-extrabold text-5xl text-[#f00]">¡SÓLO POR HOY!</h2>
+    <h3 class="text-center font-bold text-xl py-2">
+      Tendrás un <span class="font-bold text-3xl"> 50% de DESCUENTO</span>
+    </h3>
+    <h3 class="text-center font-bold text-xl">pero apurate, esta oferta finaliza en</h3>
+    <p class="text-center py-4">
+      Estos son todos los beneficios a los que tendrás acceso solo por el día de hoy e
+      inmediatamente realices tu inscripción al nuevo programa con certificación Jabones Artesanales
+      para Emprendedores
+    </p>
+    <img src="/assets/offert.png" alt="" class="w-96 mx-auto" />
+    <CountdownTimer client:load />
+    <ButtonCTA />
+  </div>
 </section>
