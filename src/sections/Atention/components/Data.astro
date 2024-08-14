@@ -1,0 +1,11 @@
+<div
+  class="flex flex-col items-center justify-center border rounded-md shadow-md shadow-bg-gray-300 bg-lightGreen py-2 px-6 sm:min-w-[200px]  max-sm:w-[300px]"
+>
+  <p class="text-7xl md:text-8xl lg:text-9xl font-bold">
+    <span class="text-5xl lg:text-7xl"><slot name="symbol">$</slot></span>
+    <slot name="number">10</slot>
+  </p>
+  <p class="text-lg lg:text-xl text-center">
+    <slot name="text">Dólares</slot>
+  </p>
+</div>

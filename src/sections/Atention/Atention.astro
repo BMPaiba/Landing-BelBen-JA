@@ -1,0 +1,75 @@
+---
+import { IslandParagraph, Separator, TitleH2 } from "../../components";
+import { Container, Data, Datatext } from "./components";
+---
+
+<section
+  class="pt-8 z-[-2] bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(109,237,14,0.2),rgba(109,237,14,0.03))]"
+>
+  <div class="max-w-[1000px] mx-auto px-4">
+    <TitleH2>
+      ¿Quieres generar otra fuente de <span class="text-[#f00]">INGRESOS</span> y no sabes por dónde
+      comenzar?</TitleH2
+    >
+    <p class="text-xl py-8 max-sm:text-center">
+      En un entorno económico incierto, encontrar una fuente de ingresos segura puede parecer
+      imposible. La inseguridad financiera es una preocupación constante. Pero, ¿y si te dijera que
+      hay una industria en crecimiento, accesible y rentable esperándote?
+    </p>
+
+    <Separator />
+
+    <Container>
+      <Data>
+        <span slot="symbol">$</span>
+        <span slot="number">10</span>
+        <span slot="text">Dólares</span>
+      </Data>
+      <Datatext
+        >Es el valor promedio de cada jabón artesanal, aunque los productos de alta gama o
+        especializados pueden venderse por precios mucho más altos.</Datatext
+      >
+    </Container>
+    <Separator />
+    <div class="hidden sm:block">
+      <Container>
+        <Datatext
+          >Los márgenes de ganancia en la venta de jabones artesanales suelen ser atractivos, debido
+          al bajo costo de los ingredientes en comparación con el precio de venta.</Datatext
+        >
+        <Data>
+          <span slot="symbol">%</span>
+          <span slot="number">50</span>
+          <span slot="text">Es el margen de ganancia</span>
+        </Data>
+      </Container>
+    </div>
+    <div class="flex sm:hidden">
+      <Container>
+        <Data>
+          <span slot="symbol">%</span>
+          <span slot="number">50</span>
+          <span slot="text">Es el margen de ganancia</span>
+        </Data>
+        <Datatext
+          >Los márgenes de ganancia en la venta de jabones artesanales suelen ser atractivos, debido
+          al bajo costo de los ingredientes en comparación con el precio de venta.</Datatext
+        >
+      </Container>
+    </div>
+    <Separator />
+
+    <Container>
+      <Data>
+        <span slot="symbol">%</span>
+        <span slot="number">60</span>
+        <span slot="text">de las Mujeres</span>
+      </Data>
+      <Datatext>
+        Prefieren usar jabones artesanales sobre los industriales, principalmente debido a los
+        beneficios percibidos para la piel, como la suavidad, la ausencia de productos químicos
+        agresivos y el uso de ingredientes naturales.</Datatext
+      >
+    </Container>
+  </div>
+</section>
