@@ -8,11 +8,11 @@ import {
   
   export default function FrecuentlyQuestions() {
     return (
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" collapsible className="w-full max-w-[90%] mx-auto">
         {questions.map((question, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
-            <AccordionTrigger>{question.title}</AccordionTrigger>
-            <AccordionContent>{question.description}</AccordionContent>
+            <AccordionTrigger><p className=" text-start text-green-700 text-lg">{question.title} </p></AccordionTrigger>
+            <AccordionContent><p className=" text-start text-base">{question.description} </p></AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
