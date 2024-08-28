@@ -1,9 +1,7 @@
 import type { FrequentlyQuestions } from "@/interfaces";
 
 export const questions:FrequentlyQuestions[] = [
-  { title: "¿Cómo acceso al curso?", description: "esta es la respuesta" },
-  { title: "¿Puedo pedir un reembolso?", description: "esta es la respuesta" },
-  { title: "¿Con que medio puedo pagar?", description: "esta es la respuesta" },
-  { title: "¿Como accedo al curso?", description: "esta es la respuesta" },
-  { title: "¿Cual es tu nombre?", description: "esta es la respuesta" },
+  { title: "¿Tengo acceso ilimitado a este curso?", description: "¡Sí! Luego de que realices la compra vas a poder acceder a las clases cuando y donde quieras. El curso es tuyo de por vida." },
+  { title: "¿Cuando inicia el curso?", description: "Todo el contenido es 100% en línea, con clases pregrabadas a las que tendrás acceso luego de la compra del curso. ¡Puedes iniciarlo y desarrollarlo a tu propio ritmo!" },
+  { title: "¿Como obtengo el certificado del curso?", description: "Luego de que termines el curso, la plataforma te brindará automáticamente la opción para descargar el certificado." },
 ];
